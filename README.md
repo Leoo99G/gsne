@@ -3,7 +3,7 @@
 'gsne' function modifies the MATLAB built-in function 'tsne' by introducing a global cost function,
 and adds a new parameter lambda in the input; lambda controls the contribution of the global cost function, lambda = 0 
 is equivalent to tsne. The other parameters are the same as tsne. 
-tsne function provides two available algorithms in 'Alrorithm' option: 'exact' and the fast version 'barneshut'.
+tsne function provides two available algorithms in 'Algorithm' option: 'exact' and the fast version 'barneshut'.
 For now the global cost function is only implemented in the 'exact' algorithm, 
 so the 'Algorithm' option in the input of gsne must be set as 'exact' to make gsne effective.
 
